@@ -1,0 +1,24 @@
+Aktorzy: Pacjent, Lekarz
+Główne klasy: Wizyta, SlotCzasowy, Recepta, PozycjaRecepty, SystemPrzychodni
+
+Jako Pacjent
+chcę w SystemiePrzychodni móc zarezerwowować Wizytę w konkretnym SlocieCzasowym u dowolnego Lekarza
+aby ten Lekarz był o niej powiadomiony oraz żeby nie pokrywała się z innym Pacjentem
+
+Jako Pacjent 
+chcę mieć dostęp do swoich Recept w Systemie
+aby móc zobaczyć wszystkie PozycjeRecepty i ich szczegóły
+
+Jako Pacjent
+chcę mieć dostęp do listy swoich Rezerwacji
+aby móc nimi zarządzać i o nich pamiętać
+
+Jako Lekarz
+chcę mieć w SystemiePrzychodni swój własny grafik ze SlotamiCzasowymi
+aby widzieć kiedy mam i kiedy nie mam Wizyt z Pacjentami
+
+Jako Lekarz
+chcę mieć dostęp do listy moich Pacjentów
+aby móc wystawić i kontrolować ich Recepty
+
+Jako Lekarz 
