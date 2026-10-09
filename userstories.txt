@@ -1,3 +1,5 @@
+W pliku znajdują się userstories oraz minimalny to-do
+
 Aktorzy: Pacjent, Lekarz
 Główne klasy: Wizyta, SlotCzasowy, Recepta, PozycjaRecepty, SystemPrzychodni
 
@@ -18,7 +20,15 @@ chcę mieć w SystemiePrzychodni swój własny grafik ze SlotamiCzasowymi
 aby widzieć kiedy mam i kiedy nie mam Wizyt z Pacjentami
 
 Jako Lekarz
-chcę mieć dostęp do listy moich Pacjentów
+chcę mieć dostęp do listy moich Pacjentów oraz ich wymaganych danych
 aby móc wystawić i kontrolować ich Recepty
 
 Jako Lekarz 
+chcę znać dane kontaktowe moich Pacjentów
+aby móc przesunąć bądź anulować Wizytę
+
+
+Dodatkowo:
+- limit czasu przed wizytą na odwołanie rezerwacji
+- pacjent widzi jaką specjalizacje ma lekarz
+- 
