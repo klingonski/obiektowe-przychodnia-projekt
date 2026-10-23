@@ -24,7 +24,7 @@ chcę mieć dostęp do listy moich Pacjentów oraz ich wymaganych danych
 aby móc wystawić i kontrolować ich Recepty
 
 Jako Lekarz 
-chcę znać dane kontaktowe moich Pacjentów
+chcę znać dane kontaktowe moich Pacjentów // chce miec dostep do wizyt
 aby móc przesunąć bądź anulować Wizytę
 
 
