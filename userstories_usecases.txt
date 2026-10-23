@@ -1,31 +1,52 @@
-W pliku znajdują się userstories oraz minimalny to-do
+W pliku znajdują się userstories, usecases oraz minimalny to-do
 
 Aktorzy: Pacjent, Lekarz
 Główne klasy: Wizyta, SlotCzasowy, Recepta, PozycjaRecepty, SystemPrzychodni
 
+==== USERSTORIES ====
+#1
 Jako Pacjent
 chcę w SystemiePrzychodni móc zarezerwowować Wizytę w konkretnym SlocieCzasowym u dowolnego Lekarza
 aby ten Lekarz był o niej powiadomiony oraz żeby nie pokrywała się z innym Pacjentem
 
+#2
 Jako Pacjent 
 chcę mieć dostęp do swoich Recept w Systemie
 aby móc zobaczyć wszystkie PozycjeRecepty i ich szczegóły
 
+#3
 Jako Pacjent
 chcę mieć dostęp do listy swoich Rezerwacji
 aby móc nimi zarządzać i o nich pamiętać
 
+#4
 Jako Lekarz
 chcę mieć w SystemiePrzychodni swój własny grafik ze SlotamiCzasowymi
 aby widzieć kiedy mam i kiedy nie mam Wizyt z Pacjentami
 
+#5
 Jako Lekarz
 chcę mieć dostęp do listy moich Pacjentów oraz ich wymaganych danych
 aby móc wystawić i kontrolować ich Recepty
 
+#6
 Jako Lekarz 
 chcę znać dane kontaktowe moich Pacjentów // chce miec dostep do wizyt
 aby móc przesunąć bądź anulować Wizytę
+
+==== USECASES ====
+#1
+Rezerwacja wizyty na SlotCzasowy
+#1.2
+Modyfikacja istniejącej wizyty
+#1.3
+Wyświetlenie wszystkich wizyt/SlotowCzasowych powiązanych z użytkownikiem
+
+#2
+Wystawienie recepty
+#2.2
+Zobaczenie recepty i jej pozycji
+
 
 
 Dodatkowo:
