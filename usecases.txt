@@ -1,20 +1,50 @@
 ==== USECASES ====
+#0.1
+Logowanie do systemu
+Aktorzy: Pacjent, Lekarz
+Opis: Użytkownik systemu loguje się (np. za pomocą swojego ID i hasła).
+Powiązanie: Wynika ze struktury systemu. Niemożliwe jest wykonanie żadnej akcji jeśli sesja nie jest uwierzytelniona dla żadnej osoby.
+
 #1.1
 Rezerwacja wizyty na SlotCzasowy
 Aktorzy: Pacjent
-Opis: Pacjent rezerwuję wizytę w systemie wybierając SlotCzasowy danego Lekarza.
+Opis: Pacjent rezerwuję wizytę w systemie wybierając SlotCzasowy po wyszukaniu danego Lekarza.
 User stories: #1
 
 #1.2/3/4
-Modyfikacja istniejącej wizyty / Wyświetlenie wszystkich wizyt/SlotowCzasowych powiązanych z użytkownikiem / Anulowanie wizyty.
+Modyfikacja istniejącej wizyty.
+Aktorzy: Lekarz
+Opis: Lekarz zarządza daną wizytą, na życzenie swoje lub pacjenta po ustaleniu.
+User stories: #3, #6, #4
+
+#1.3
+Wyświetlenie wszystkich wizyt/SlotowCzasowych powiązanych z użytkownikiem.
 Aktorzy: Pacjent, Lekarz
-Opis: Pacjent lub lekarz zarządza swoją wizytą
-User storeies: #3, #6, #4
+Opis: Pacjent lub lekarz wyświetla wszystkie nadchodzące wizyty
+User stories: #3, #4
+
+#1.4
+Dodanie otwartego slotu czasowego na rezerwacje.
+Akotrzy: Lekarz
+Opis: Lekarz dodaje do systemu wolny slot czasowy, otwarty na rezerwację przez pacjentów.
+User stories: #4
+
+#1.5
+Anulowanie wizyty.
+Aktorzy: Pacjent, Lekarz
+Opis: Pacjent lub lekarz anuluje wizytę (pacjent ma limit do 24h przed wizytą).
+User stories: #3, #6
+
+#1.6
+Zakończenie wizyty.
+Aktorzy: Lekarz
+Opis: Lekarz oznacza wizytę jako zakończoną, jednocześnie umożliwiając wystawienie recepty.
+Powiązanie: Zakończenie wizyty jest oznaczone jako wymóg do wystawienia recepty w diagramie klas.
 
 #2.1
-Wystawienie recepty
+Wystawienie recepty 
 Aktorzy: Lekarz
-Opis: Lekarz wystawia receptę o danej treści konkretnemu pacjentowi.
+Opis: Lekarz wystawia receptę o danej treści konkretnemu pacjentowi (przypisując ją w Systemie do wizyty).
 User stories: #5
 
 #2.2
