@@ -1,1 +1,24 @@
-.
+==== USECASES ====
+#1.1
+Rezerwacja wizyty na SlotCzasowy
+Aktorzy: Pacjent
+Opis: Pacjent rezerwuję wizytę w systemie wybierając SlotCzasowy danego Lekarza.
+User stories: #1
+
+#1.2/3/4
+Modyfikacja istniejącej wizyty / Wyświetlenie wszystkich wizyt/SlotowCzasowych powiązanych z użytkownikiem / Anulowanie wizyty.
+Aktorzy: Pacjent, Lekarz
+Opis: Pacjent lub lekarz zarządza swoją wizytą
+User storeies: #3, #6, #4
+
+#2.1
+Wystawienie recepty
+Aktorzy: Lekarz
+Opis: Lekarz wystawia receptę o danej treści konkretnemu pacjentowi.
+User stories: #5
+
+#2.2
+Zobaczenie recepty i jej pozycji
+Aktorzy: Pacjent
+Opis: Pacjent za pomocą systemu wyświetla swoje recepty 
+User stories: #2
