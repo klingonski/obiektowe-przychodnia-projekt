@@ -34,19 +34,6 @@ Jako Lekarz
 chcę znać dane kontaktowe moich Pacjentów // chce miec dostep do wizyt
 aby móc przesunąć bądź anulować Wizytę
 
-==== USECASES ====
-#1
-Rezerwacja wizyty na SlotCzasowy
-#1.2
-Modyfikacja istniejącej wizyty
-#1.3
-Wyświetlenie wszystkich wizyt/SlotowCzasowych powiązanych z użytkownikiem
-
-#2
-Wystawienie recepty
-#2.2
-Zobaczenie recepty i jej pozycji
-
 
 
 Dodatkowo:
