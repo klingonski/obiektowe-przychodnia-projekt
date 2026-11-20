@@ -34,9 +34,10 @@ Jako Lekarz
 chcę znać dane kontaktowe moich Pacjentów // chce miec dostep do wizyt
 aby móc przesunąć bądź anulować Wizytę
 
-
-
-Dodatkowo:
+#7
+Jako Pacjent
+chcę móc odwołać wizytę, mogę zrobić to do 24h przed wizytą
+aby nie tracić czasu i pieniędzy w przypadku nagłych zmian
 - limit czasu przed wizytą na odwołanie rezerwacji
 - pacjent widzi jaką specjalizacje ma lekarz
 - 
